@@ -1,0 +1,38 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="calculator css.css">
+       <script src="calculatorj.js"></script>
+    </head>
+    <body>
+        <h1>Calculator</h1>
+        <div class="container">
+            <div class="cal">
+                <input type="text" class="result" id="result" name="result">
+                <button class="no" id="clr" value="C" onclick="clr()">Clr</button>
+                <button class="no" value="DE" onclick="del()">DE</button>
+                <button class="no" value="/" onclick="pick('/')">/</button>
+                <br>
+                <button class="no" value="7" onclick="pick(7)">7</button>
+                 <button class="no" value="8" onclick="pick(8)">8</button>
+                 <button class="no" value="9" onclick="pick(9)">9</button>
+                 <button class="no" value="*" onclick="pick('*')">*</button><br>
+
+                 <button class="no" value="4" onclick="pick(4)">4</button>
+                 <button class="no" value="5" onclick="pick(5)">5</button>
+                 <button class="no" value="6" onclick="pick(6)">6</button>
+                 <button class="no" value="-" onclick="pick('-')">-</button><br>
+
+                  <button class="no" value="1" onclick="pick(1)">1</button>
+                 <button class="no" value="2" onclick="pick(2)">2</button>
+                 <button class="no" value="3" onclick="pick(3)">3</button>
+                 <button class="no" value="+" onclick="pick('+')">+</button><br>
+                 
+
+                 <button class="no" value="." onclick="pick('.')">.</button>
+                 <button class="no" value="0" onclick="pick(0)">0</button>
+
+                 <button class="no" value="=" id="no" onclick="solve()">=</button>
+            </div>
+        </div>
+    </body>
+</html>
